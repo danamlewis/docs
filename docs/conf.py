@@ -150,6 +150,10 @@ html_theme_options = {
   'extra_nav_links': extra_nav_links,
 }
 
+html_context = {
+    'script_files': ['_static/custom.js'],
+}
+
 """
 html_theme = 'default'
 html_theme_options = {
