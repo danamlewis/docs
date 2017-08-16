@@ -1,5 +1,8 @@
 # Installing OpenAPS on your rig with an already-flashed-Edison
 
+.. js:module:: copyToClipboard(TEXT)
+
+
 ### Prep Steps
 PC users: [follow these instructions to get PUTTY and plug in your rig](windows-putty-prep.md). Then, follow the rest of the instructions below.
 
