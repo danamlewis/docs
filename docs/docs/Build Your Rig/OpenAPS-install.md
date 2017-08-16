@@ -2,6 +2,9 @@
 
 .. js:module:: copyToClipboard(TEXT)
 
+<button onclick="copyToClipboard('#p1')">Copy TEXT 1</button>
+<button onclick="copyToClipboard('#p2')">Copy TEXT 2</button>
+
 
 ### Prep Steps
 PC users: [follow these instructions to get PUTTY and plug in your rig](windows-putty-prep.md). Then, follow the rest of the instructions below.
