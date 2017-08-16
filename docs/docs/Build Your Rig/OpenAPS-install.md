@@ -2,8 +2,12 @@
 
 .. js:module:: copyToClipboard(TEXT)
 
+
 <button onclick="copyToClipboard('COPY TEST 1')">Copy TEXT 1</button>
 <button onclick="copyToClipboard('#p2')">Copy TEXT 2</button>
+
+>! Spoiler text 1
+>! Spoiler text2
 
 
 ### Prep Steps
