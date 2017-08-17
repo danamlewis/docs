@@ -48,7 +48,8 @@ cd /tmp/; wget --no-check-certificate https://raw.githubusercontent.com/openaps/
 )
 </p>
 
-<button onclick="copyToClipboard('#p2')">Click here to copy the above text block</button>, then go back to Terminal/PuTTY and paste into the command line. Then, hit enter. 
+<button onclick="copyToClipboard('#p2')">Click here to copy the above text block</button>
+, then go back to Terminal/PuTTY and paste into the command line. Then, hit enter. 
 
 The screenshot below is an example of what the pasted text will look like (highlighted in blue for clarity). (If you have trouble copying from the box, [click here](https://raw.githubusercontent.com/openaps/oref0/dev/bin/openaps-bootstrap.sh) and ctrl-a or command-a to copy the text from there.)
 
