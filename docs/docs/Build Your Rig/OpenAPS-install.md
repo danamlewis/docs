@@ -1,5 +1,17 @@
 # Installing OpenAPS on your rig with an already-flashed-Edison
 
+
+### Prep Steps
+PC users: [follow these instructions to get PUTTY and plug in your rig](windows-putty-prep.md). Then, follow the rest of the instructions below.
+
+Mac users: [follow these instructions to open Terminal and plug in your rig](mac-prep.md). Then, follow the rest of the instructions below.
+
+### Log in to your rig
+
+If you're not already, make sure you're logged into your rig via root. You should see root@jubilinux on the command prompt.
+
+### Copy and paste to run the wifi and oref0-setup scripts
+
 <p id="p2">#!/bin/bash
 (
 dmesg -D
@@ -36,25 +48,9 @@ cd /tmp/; wget --no-check-certificate https://raw.githubusercontent.com/openaps/
 )
 </p>
 
-<button onclick="copyToClipboard('#p2')">Click here to copy the above text block</button>
+<button onclick="copyToClipboard('#p2')">Click here to copy the above text block</button>, then go back to Terminal/PuTTY and paste into the command line. Then, hit enter. 
 
-
-
-
-### Prep Steps
-PC users: [follow these instructions to get PUTTY and plug in your rig](windows-putty-prep.md). Then, follow the rest of the instructions below.
-
-Mac users: [follow these instructions to open Terminal and plug in your rig](mac-prep.md). Then, follow the rest of the instructions below.
-
-### Log in to your rig
-
-If you're not already, make sure you're logged into your rig via root. You should see root@jubilinux on the command prompt.
-
-### Copy and paste to run the wifi and oref0-setup scripts
-
-Go to [this webpage](https://raw.githubusercontent.com/openaps/docs/dev/scripts/openaps-bootstrap.sh) in a separate tab/window.
-
-Copy all of those lines; go back to Terminal/PuTTY and paste into the command line. Then, hit enter.
+The screenshot below is an example of what the pasted text will look like (highlighted in blue for clarity). (If you have trouble copying from the box, [click here](https://raw.githubusercontent.com/openaps/oref0/dev/bin/openaps-bootstrap.sh) and ctrl-a or command-a to copy the text from there.)
 
 The script will do some initial installing, check the wifi, and ask you to hit enter to proceed.
 
