@@ -1,7 +1,5 @@
 # Installing OpenAPS on your rig with an already-flashed-Edison
 
-.. js:module:: copyToClipboard(TEXT)
-
 <p id="p2">#!/bin/bash
 (
 dmesg -D
@@ -38,8 +36,7 @@ cd /tmp/; wget --no-check-certificate https://raw.githubusercontent.com/openaps/
 )
 </p>
 
-<button onclick="copyToClipboard('COPY TEST 1')">Copy TEXT 1</button>
-<button onclick="copyToClipboard('#p2')">Copy TEXT 2</button>
+<button onclick="copyToClipboard('#p2')">Click here to copy the above text block</button>
 
 
 
